@@ -22,6 +22,12 @@ public class EmployeeWage {
         int partimeWage = (partTimeWage * partTimeHour);
         System.out.println("Part time wage is  " + partimeWage);
 
-
+        switch (atndc) {
+            case 0:
+                System.out.println("Absent");
+                break;
+            case 1:
+                System.out.println("Present");
+                break;
+        }
     }
-}
